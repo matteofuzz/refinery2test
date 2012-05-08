@@ -22,7 +22,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end  
 
-group :production do    
+group :production do     
+  gem 'mysql2'
   gem 'execjs'
   gem 'therubyracer'  
   gem 'coffee-rails', '~> 3.2.1'   
