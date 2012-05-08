@@ -20,6 +20,12 @@ group :assets do
   # gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end  
+
+group :production do    
+  gem 'execjs'
+  gem 'therubyracer'  
+  gem 'coffee-rails', '~> 3.2.1'   
 end
 
 gem 'jquery-rails'
